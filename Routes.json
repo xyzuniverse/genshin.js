@@ -1,0 +1,27 @@
+{
+    "act_id": {
+        "genshin": "e202102251931481",
+        "starrail": "e202303301540311"
+    },
+    "reward_url": {
+        "genshin": "https://sg-hk4e-api.hoyolab.com/event/sol/",
+        "starrail": "https://sg-public-api.hoyolab.com/event/luna/os/"
+    },
+    "exchange_code_url": {
+        "genshin": "https://sg-hk4e-api.hoyoverse.com/common/apicdkey/api/webExchangeCdkey",
+        "starrail": "https://sg-starrail-api.hoyoverse.com/common/apicdkey/api/webExchangeCdkey"
+    },
+    "web_api": {
+        "userInfo": "https://api-account-os.hoyoverse.com/account/binding/api/getUserGameRolesByCookieToken"
+    },
+    "code_url": {
+        "genshin": "https://sg-hk4e-api.hoyoverse.com/common/apicdkey/api/webExchangeCdkey",
+        "starrail": "https://sg-hkrpg-api.hoyoverse.com/common/apicdkey/api/webExchangeCdkey"
+    },
+    "info_ledger_url": "https://sg-hk4e-api.hoyolab.com/event/ysledgeros/month_info",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36",
+    "gameCode": {
+        "genshin": "hk4e_global",
+        "starrail": "hkrpg_global"
+    }
+}
