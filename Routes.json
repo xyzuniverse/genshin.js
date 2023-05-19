@@ -23,5 +23,6 @@
     "gameCode": {
         "genshin": "hk4e_global",
         "starrail": "hkrpg_global"
-    }
+    },
+    "genshinGameRecord": "https://bbs-api-os.hoyolab.com/game_record/card/wapi/getGameRecordCard"
 }
