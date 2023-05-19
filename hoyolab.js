@@ -7,8 +7,8 @@ const Errors = require('./Errors.json');
  * Create a new client sessions
  */
 class Client {
-    constructor(cookieToken, game, server) {
-        this.cookieToken = cookieToken;
+    constructor(account_id, cookie_token, game, server) {
+        this.cookieToken = ['account_id=' + account_id, 'cookie_token=' + cookie_token].join('; ');
         this.game = game;
         this.server = server;
     };
@@ -24,7 +24,7 @@ class Client {
                 game_biz: Handler.recognizeGame(this.game),
             }
         });
-        return result?.data?.list;
+        return result;
     };
 
     async claimRedeemCode(code) {
